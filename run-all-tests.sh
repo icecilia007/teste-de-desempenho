@@ -80,9 +80,9 @@ run_test() {
     fi
 }
 
-run_test "ETAPA 1 — SMOKE TEST"   "tests/smoke.js"   30
-run_test "ETAPA 2 — LOAD TEST"    "tests/load.js"    60
-run_test "ETAPA 3 — STRESS TEST"  "tests/stress.js"  60
+run_test "ETAPA 1 — SMOKE TEST"   "tests/smoke.js"   180
+run_test "ETAPA 2 — LOAD TEST"    "tests/load.js"    600
+run_test "ETAPA 3 — STRESS TEST"  "tests/stress.js"  600
 run_test "ETAPA 4 — SPIKE TEST"   "tests/spike.js"   0
 
 log ""
